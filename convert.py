@@ -25,7 +25,7 @@ def convert_to_xlsx(input_file):
 
 def main():
     # Specify the directory containing .xls files
-    input_directory = 'path/to/your/input/directory'
+    input_directory = r'\\RCK-SVR-FILE.TYLI.COM\TYLin-RCK$\Projects\3010.0101541.000\400_DATA\50_Traffic\Data Collection_May 2024\Imperial Traffic and Data Collection\TMC Data\xls to xlsx converted'
 
     # Get a list of .xls files in the directory
     xls_files = [f for f in os.listdir(input_directory) if f.endswith('.xls')]
